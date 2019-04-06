@@ -28,8 +28,8 @@ class TicTacToe
   end
 
     #places user input onto the board
-  def move(board, index, current_player)
-    board[index] = current_player
+  def move(index, current_player)
+    @board[index] = current_player
     if current_player = "X" || "O"
       return true
     else
