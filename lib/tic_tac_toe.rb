@@ -65,7 +65,7 @@ class TicTacToe
   end
 
   #defines if there is a winning combination, draw, or if the board is empty
-  def won?(board)
+  def won?
   empty_board = @board.all? {|empty| empty == " "}
   draw = @board.all? {|token| token == "X" || token == "O"}
   WIN_COMBINATIONS.any? do |win_combo|
