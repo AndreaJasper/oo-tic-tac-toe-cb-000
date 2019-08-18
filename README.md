@@ -7,46 +7,7 @@
 
 ## Overview
 
-You're going to be building a 2 player CLI version of Tic Tac Toe by building a `TicTacToe` object. The game play will be very similar to other versions of TicTacToe.
-
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/e4TMZ0f6qoI" frameborder="0" allowfullscreen></iframe>
-
-## Instructions
-
-**Run `bundle` within this lab's directory before getting started.**
-
-### Project Structure
-
-```bash 
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── bin
-│   └── tictactoe
-├── lib
-│   └── tic_tac_toe.rb
-└── spec
-    ├── 01_tic_tac_toe_spec.rb
-    ├── 02_play_spec.rb
-    ├── 03_cli_spec.rb
-    └── spec_helper.rb
-```
-
-#### Gemfile
-
-These files set up some tools and gems for our project and can mostly be ignored. Make sure to run `bundle` before starting this project so that you have all the required gems.
-
-#### `bin/tictactoe`
-
-This is our main executable and will be how we run our game.
-
-#### `lib/tic_tac_toe.rb`
-
-Our main `TicTacToe` class will be defined here with all the data and logic required to play a game of tic tac toe via instances of `TicTacToe`.
-
-#### `spec`
-
-There are three test files that should be completed in order. `01_tic_tac_toe_spec.rb` sets tests for our helper methods within `TicTacToe`. `02_play_spec.rb` tests the main `#play` method. `03_cli_spec.rb` tests the CLI.
+Build a 2 player CLI version of Tic Tac Toe by building a `TicTacToe` object. The game play will be very similar to other versions of TicTacToe.
 
 ### Your Object Oriented Tic Tac Toe
 
